@@ -24,10 +24,10 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "7073584365:AAEa0zSEQFdX75bkea8wmHx0Ed_21fK
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
-PICS = (environ.get('PICS', 'https://graph.org/file/d7285c25c6c0d64439e5d.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/b69af2db776e4e85d21ec.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/ebookguy/9")
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/15c1ad448dfe472a5cbb8.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
+SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002145018097'))
@@ -71,10 +71,10 @@ CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "") # Necessary If clone 
 PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/codeconvo')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/booksguy')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/ebookguy/9')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'requestbookgroup') # Support Chat Link Without https:// or @
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/vj_bot_disscussion')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/vj_bots')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Open_Linkl')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'vj_bot_disscussion') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
