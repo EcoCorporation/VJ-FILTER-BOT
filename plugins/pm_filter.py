@@ -2763,8 +2763,8 @@ async def auto_filter(client, name, msg, reply_msg, ai_search, spoll=False):
         search, files, offset, total_results = spoll
         settings = await get_settings(message.chat.id)
         await msg.message.delete()
-    pre = 'filep' if settings['file_secure'] else 'file'
-    key = f"{message.chat.id}-{message.id}"
+    # pre = 'filep' if settings['file_secure'] else 'file'
+    # key = f"{message.chat.id}-{message.id}"
     # FRESH[key] = search
     # temp.GETALL[key] = files
     # temp.SHORT[message.from_user.id] = message.chat.id
